@@ -1,0 +1,15 @@
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_DAL\bin\Debug\net5.0\Projet_DAL.deps.json
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_DAL\bin\Debug\net5.0\Projet_DAL.dll
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_DAL\bin\Debug\net5.0\ref\Projet_DAL.dll
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_DAL\bin\Debug\net5.0\Projet_DAL.pdb
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_DAL\bin\Debug\net5.0\Projet_Common.dll
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_DAL\bin\Debug\net5.0\Projet_Common.pdb
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_DAL\obj\Debug\net5.0\Projet_DAL.csproj.AssemblyReference.cache
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_DAL\obj\Debug\net5.0\Projet_DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_DAL\obj\Debug\net5.0\Projet_DAL.AssemblyInfoInputs.cache
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_DAL\obj\Debug\net5.0\Projet_DAL.AssemblyInfo.cs
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_DAL\obj\Debug\net5.0\Projet_DAL.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_DAL\obj\Debug\net5.0\Projet_DAL.csproj.CopyComplete
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_DAL\obj\Debug\net5.0\Projet_DAL.dll
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_DAL\obj\Debug\net5.0\ref\Projet_DAL.dll
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_DAL\obj\Debug\net5.0\Projet_DAL.pdb

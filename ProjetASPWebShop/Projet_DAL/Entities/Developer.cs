@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Projet_Common.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Projet_DAL.Entities
 {
-    public class Developer
+    public class Developer:IDeveloper
     {
         //INT
         public int IdDev { get; set; }

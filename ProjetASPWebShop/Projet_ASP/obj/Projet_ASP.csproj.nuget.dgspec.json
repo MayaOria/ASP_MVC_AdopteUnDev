@@ -31,7 +31,91 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_BLL\\Projet_BLL.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_BLL\\Projet_BLL.csproj"
+              },
+              "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj"
+              },
+              "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_DAL\\Projet_DAL.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_DAL\\Projet_DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_BLL\\Projet_BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_BLL\\Projet_BLL.csproj",
+        "projectName": "Projet_BLL",
+        "projectPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_BLL\\Projet_BLL.csproj",
+        "packagesPath": "C:\\Users\\m.orianne\\.nuget\\packages\\",
+        "outputPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\m.orianne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj"
+              },
+              "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_DAL\\Projet_DAL.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_DAL\\Projet_DAL.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -54,9 +138,132 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj",
+        "projectName": "Projet_Common",
+        "projectPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj",
+        "packagesPath": "C:\\Users\\m.orianne\\.nuget\\packages\\",
+        "outputPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\m.orianne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_DAL\\Projet_DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_DAL\\Projet_DAL.csproj",
+        "projectName": "Projet_DAL",
+        "projectPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_DAL\\Projet_DAL.csproj",
+        "packagesPath": "C:\\Users\\m.orianne\\.nuget\\packages\\",
+        "outputPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\m.orianne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

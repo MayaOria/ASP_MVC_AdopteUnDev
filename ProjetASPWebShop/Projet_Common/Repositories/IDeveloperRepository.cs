@@ -7,7 +7,8 @@ namespace Projet_Common.Repositories
 {
     public interface IDeveloperRepository<TEntity, TId> : 
             IGetRepository<TEntity, TId>, 
-            IInsertRepository<TEntity, TId> 
+            IInsertRepository<TEntity, TId>,
+            IUpdateRepository<TEntity, TId>
             where TEntity : IDeveloper
     {
     }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Projet_Common
 {
-    interface IRepository<TEntity, TId>:
+    public interface IRepository<TEntity, TId>:
         IGetRepository<TEntity, TId>,
         IInsertRepository<TEntity, TId>,
         IUpdateRepository<TEntity, TId>,

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Projet_Common
 {
-    interface IUpdateRepository<TId, TEntity>
+    public interface IUpdateRepository<TId, TEntity>
     {
         bool Update(TId id, TEntity entity);
     }

@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Projet_Common
 {
-    public interface IInsertRepository<Tentity, TId>
+    public interface IInsertRepository<TEntity, TId>
     {
-        TId Insert(Tentity entity);
+        TId Insert(TEntity entity);
     }
 }

@@ -1,0 +1,17 @@
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_BLL\bin\Debug\net5.0\Projet_BLL.deps.json
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_BLL\bin\Debug\net5.0\Projet_BLL.dll
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_BLL\bin\Debug\net5.0\ref\Projet_BLL.dll
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_BLL\bin\Debug\net5.0\Projet_BLL.pdb
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_BLL\bin\Debug\net5.0\Projet_Common.dll
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_BLL\bin\Debug\net5.0\Projet_DAL.dll
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_BLL\bin\Debug\net5.0\Projet_Common.pdb
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_BLL\bin\Debug\net5.0\Projet_DAL.pdb
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_BLL\obj\Debug\net5.0\Projet_BLL.csproj.AssemblyReference.cache
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_BLL\obj\Debug\net5.0\Projet_BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_BLL\obj\Debug\net5.0\Projet_BLL.AssemblyInfoInputs.cache
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_BLL\obj\Debug\net5.0\Projet_BLL.AssemblyInfo.cs
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_BLL\obj\Debug\net5.0\Projet_BLL.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_BLL\obj\Debug\net5.0\Projet_BLL.csproj.CopyComplete
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_BLL\obj\Debug\net5.0\Projet_BLL.dll
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_BLL\obj\Debug\net5.0\ref\Projet_BLL.dll
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_BLL\obj\Debug\net5.0\Projet_BLL.pdb
