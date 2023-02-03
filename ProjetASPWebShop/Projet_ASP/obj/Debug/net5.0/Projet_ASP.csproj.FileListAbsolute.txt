@@ -129,3 +129,6 @@ C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_ASP\obj\Debug\net5.0\Pro
 C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_ASP\obj\Debug\net5.0\Razor\Views\Developer\Index.cshtml.g.cs
 C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_ASP\obj\Debug\net5.0\Razor\Views\Developer\Details.cshtml.g.cs
 C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_ASP\obj\Debug\net5.0\Razor\Views\Developer\Create.cshtml.g.cs
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_ASP\obj\Debug\net5.0\Razor\Views\ItLang\Index.cshtml.g.cs
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_ASP\obj\Debug\net5.0\Razor\Views\ItLang\Details.cshtml.g.cs
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_ASP\obj\Debug\net5.0\Razor\Views\Shared\_DevLangList.cshtml.g.cs

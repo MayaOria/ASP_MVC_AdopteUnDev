@@ -30,6 +30,9 @@ namespace Projet_BLL.Entities
             public string DevMail { get; set; }
             
             public string DevCategPrincipal { get; set; }
+            
+            public IEnumerable<DevLang> Devlang { get; set; }
+        
         }
     
 }

@@ -31,6 +31,8 @@ namespace Projet_ASP.Models.DeveloperViewModel
         public string DevMail { get; set; }
         [DisplayName("Catégorie : ")]
         public string DevCategPrincipal { get; set; }
+        [DisplayName("Languages maîtrisés : ")]
+        public IEnumerable<string> DevLang { get; set; }
        
 
     }

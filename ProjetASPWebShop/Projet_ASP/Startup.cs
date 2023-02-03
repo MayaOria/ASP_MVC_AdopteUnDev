@@ -30,6 +30,10 @@ namespace Projet_ASP
             services.AddControllersWithViews();
             services.AddScoped<IDeveloperRepository<BLLEntities.Developer, int>, BLLServices.DeveloperService>();
             services.AddScoped<IDeveloperRepository<DALEntities.Developer, int>, DALServices.DeveloperService>();
+            services.AddScoped<IItLangRepository<BLLEntities.ItLang, int>, BLLServices.ItLangService>();
+            services.AddScoped<IItLangRepository<DALEntities.ItLang, int>, DALServices.ItLangService>();
+            services.AddScoped<IDevLangRepository<BLLEntities.DevLang, int>, BLLServices.DevLangService>();
+            services.AddScoped<IDevLangRepository<DALEntities.DevLang, int>, DALServices.DevLangService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

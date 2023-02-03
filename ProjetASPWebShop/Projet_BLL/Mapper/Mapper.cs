@@ -46,5 +46,26 @@ namespace Projet_BLL.Mapper
                 DevCategPrincipal = entity.DevCategPrincipal
             };
         }
+
+        public static BLLEntities.ItLang ToBLL(this DALEntities.ItLang entity)
+        {
+            if (entity is null) return null;
+            return new BLLEntities.ItLang()
+            {
+                IdIT = entity.IdIt,
+                ITLabel = entity.ItLabel
+            };
+        }
+
+        public static BLLEntities.DevLang ToBLL(this DALEntities.DevLang entity)
+        {
+            if (entity is null) return null;
+            return new BLLEntities.DevLang()
+            {
+                IdDev = entity.idDev,
+                IdIt = entity.idIt,
+                Since = entity.Since
+            };
+        }
     }
 }

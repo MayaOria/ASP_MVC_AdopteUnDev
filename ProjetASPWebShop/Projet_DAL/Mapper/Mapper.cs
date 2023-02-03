@@ -25,9 +25,28 @@ namespace Projet_DAL.Mapper
                 DevMonthCost = (double)record[nameof(Developer.DevMonthCost)],
                 DevMail = (string)record[nameof(Developer.DevMail)],
                 DevCategPrincipal = (record[nameof(Developer.DevCategPrincipal)] is DBNull) ? null : (string)record[nameof(Developer.DevCategPrincipal)]
-            };
+            };                        
+        }
 
-            //adresse = (record[nameof(Client.adresse)] is DBNull) ? null : (string)record[nameof(Client.adresse)]
+        public static ItLang ToItLang(this IDataRecord record)
+        {
+            if (record is null) return null;
+            return new ItLang()
+            {
+                IdIt = (int)record[nameof(ItLang.IdIt)],
+                ItLabel = (string)record[nameof(ItLang.ItLabel)]
+            };
+        }
+
+        public static DevLang ToDevLang(this IDataRecord record)
+        {
+            if (record is null) return null;
+            return new DevLang()
+            {
+                idDev = (int)record[nameof(DevLang.idDev)],
+                idIt = (int)record[nameof(DevLang.idIt)],
+                Since = (record[nameof(DevLang.Since)] is DBNull) ? null :(DateTime)record[nameof(DevLang.Since)]
+            };
         }
     }
 }

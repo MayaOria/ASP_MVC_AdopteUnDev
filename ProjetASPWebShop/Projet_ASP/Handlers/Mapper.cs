@@ -1,4 +1,5 @@
 ﻿using Projet_ASP.Models.DeveloperViewModel;
+using Projet_ASP.Models.ItLangViewModels;
 using Projet_BLL.Entities;
 using System;
 using System.Collections.Generic;
@@ -37,7 +38,8 @@ namespace Projet_ASP.Handlers
                 DevDayCost = entity.DevDayCost,
                 DevMonthCost = entity.DevMonthCost,
                 DevMail = entity.DevMail,
-                DevCategPrincipal = entity.DevCategPrincipal
+                DevCategPrincipal = entity.DevCategPrincipal,
+                DevLang = entity.Devlang.Select(e => e.Lang.ITLabel)
             };
         }
 
@@ -56,6 +58,27 @@ namespace Projet_ASP.Handlers
                 DevMonthCost = entity.DevMonthCost,
                 DevMail = entity.DevMail,
                 DevCategPrincipal = entity.DevCategPrincipal
+            };
+        }
+
+        public static ItLangListItem ToListItem(this Projet_BLL.Entities.ItLang entity)
+        {
+            if (entity is null) return null;
+            return new ItLangListItem()
+            {
+                IdIT = entity.IdIT,
+                IdLabel = entity.ITLabel
+            };
+        }
+
+        public static ItLangDetails ToDetails(this Projet_BLL.Entities.ItLang entity)
+        {
+            if (entity is null) return null;
+            return new ItLangDetails()
+            {
+                IdIT = entity.IdIT,
+                IdLabel = entity.ITLabel
+
             };
         }
     }
