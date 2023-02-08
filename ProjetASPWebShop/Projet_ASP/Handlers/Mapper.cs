@@ -1,4 +1,5 @@
-﻿using Projet_ASP.Models.DeveloperViewModel;
+﻿using Projet_ASP.Models.CategoriesViewModels;
+using Projet_ASP.Models.DeveloperViewModel;
 using Projet_ASP.Models.ItLangViewModels;
 using Projet_BLL.Entities;
 using System;
@@ -77,8 +78,31 @@ namespace Projet_ASP.Handlers
             return new ItLangDetails()
             {
                 IdIT = entity.IdIT,
-                IdLabel = entity.ITLabel
+                IdLabel = entity.ITLabel,
+                categories = entity.Categories
+                
 
+            };
+        }
+
+        public static CategoriesListItem ToListItem(this Categories entity)
+        {
+            if (entity is null) return null;
+            return new CategoriesListItem()
+            {
+                IdCategory = entity.IdCategory,
+                CategLabel = entity.CategLabel
+            };
+        }
+
+        public static CategoriesDetails ToDetails(this Categories entity)
+        {
+            if (entity is null) return null;
+            return new CategoriesDetails()
+            {
+                IdCategory = entity.IdCategory,
+                IdLabel = entity.CategLabel,
+                itLangs = entity.ItLangues
             };
         }
     }

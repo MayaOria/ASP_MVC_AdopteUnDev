@@ -1,0 +1,12 @@
+﻿@using Projet_BLL.Entities;
+
+@model IEnumerable<Categories>
+
+<ul>
+    @foreach (Categories categorie in Model)
+    {
+        <li>
+            <span>@categorie.CategLabel </span>
+        </li>
+    }
+</ul>

@@ -48,5 +48,15 @@ namespace Projet_DAL.Mapper
                 Since = (record[nameof(DevLang.Since)] is DBNull) ? null :(DateTime)record[nameof(DevLang.Since)]
             };
         }
+
+        public static Categories ToCategory(this IDataRecord record)
+        {
+            if (record is null) return null;
+            return new Categories()
+            {
+                IdCategory = (int)record[nameof(Categories.IdCategory)],
+                CategLabel = (string)record[nameof(Categories.CategLabel)]
+            };
+        }
     }
 }

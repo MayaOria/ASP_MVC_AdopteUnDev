@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Projet_BLL.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,6 +27,8 @@ namespace Projet_BLL.Mapper
                 DevMonthCost = entity.DevMonthCost,
                 DevMail = entity.DevMail,
                 DevCategPrincipal = entity.DevCategPrincipal
+                //Devlang = null
+
             };
         }
 
@@ -67,5 +70,19 @@ namespace Projet_BLL.Mapper
                 Since = entity.Since
             };
         }
+
+        public static BLLEntities.Categories ToBLL(this DALEntities.Categories entity)
+        {
+            if (entity is null) return null;
+            return new BLLEntities.Categories()
+            {
+                IdCategory = entity.IdCategory,
+                CategLabel = entity.CategLabel
+                //ITlangues = null
+            };
+        }
+
+
+
     }
 }

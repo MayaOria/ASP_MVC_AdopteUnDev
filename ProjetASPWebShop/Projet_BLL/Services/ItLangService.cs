@@ -15,10 +15,12 @@ namespace Projet_BLL.Services
     {
 
         private readonly IItLangRepository<DALEntities.ItLang, int> _repository;
+        private readonly ICategoriesRepository<DALEntities.Categories, int> _categories_repository;
 
-        public ItLangService(IItLangRepository<DALEntities.ItLang, int> repository)
+        public ItLangService(IItLangRepository<DALEntities.ItLang, int> repository, ICategoriesRepository<DALEntities.Categories, int> categories_repository)
         {
             _repository = repository;
+            _categories_repository = categories_repository;
         }
 
         public IEnumerable<ItLang> Get()
@@ -28,7 +30,15 @@ namespace Projet_BLL.Services
 
         public ItLang Get(int id)
         {
-            return _repository.Get(id).ToBLL();
+            ItLang entity = _repository.Get(id).ToBLL();
+            entity.Categories = _categories_repository.GetByIdIt(id).Select(e => e.ToBLL());
+            return entity;
+
+        }
+
+        public IEnumerable<ItLang> GetByCateg(int idCateg)
+        {
+            return _repository.GetByCateg(idCateg).Select(e => e.ToBLL());
         }
     }
 }

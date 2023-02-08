@@ -56,5 +56,30 @@ namespace Projet_DAL.Services
                 }
             }
         }
+
+        public IEnumerable<ItLang> GetByCateg(int idCateg)
+        {
+            using(SqlConnection connexion = new SqlConnection(ConnectionString))
+            {
+                using(SqlCommand command = connexion.CreateCommand())
+                {
+                    command.CommandText = @"SELECT ITLang.idIT, ITLang.ITLabel
+                                            FROM ITLang
+                                            JOIN LangCateg
+                                            ON ITLang.idIT = LangCateg.idIT
+                                            WHERE LangCateg.idCategory = @id";
+                    command.Parameters.AddWithValue("id", idCateg);
+                    connexion.Open();
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            yield return reader.ToItLang();
+                        }
+                        
+                    }
+                }
+            }
+        }
     }
 }

@@ -1,0 +1,28 @@
+﻿@model Projet_ASP.Models.CategoriesViewModels.CategoriesDetails
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>CategoriesDetails</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IdLabel)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IdLabel)
+        </dd>
+    </dl>
+</div>
+<div>
+    <h2>@Html.DisplayNameFor(model => model.itLangs)</h2>
+    <partial name="_itLangsList" for="itLangs" />
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>

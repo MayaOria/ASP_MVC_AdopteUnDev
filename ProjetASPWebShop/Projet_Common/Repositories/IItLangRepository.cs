@@ -9,5 +9,6 @@ namespace Projet_Common.Repositories
         IGetRepository<TEntity, Tid>
         where TEntity : IItLang
     {
+        IEnumerable<TEntity> GetByCateg(Tid idCateg);
     }
 }

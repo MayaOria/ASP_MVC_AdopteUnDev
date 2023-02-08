@@ -9,5 +9,7 @@ namespace Projet_Common.Repositories
         IGetRepository<TEntity, Tid>
         where TEntity: ICategories
     {
+        IEnumerable<TEntity> GetByIdDev(Tid idDev);
+        IEnumerable<TEntity> GetByIdIt(Tid idIt);
     }
 }

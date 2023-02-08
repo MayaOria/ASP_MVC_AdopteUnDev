@@ -7,9 +7,12 @@ using System.Threading.Tasks;
 
 namespace Projet_BLL.Entities
 {
-    public class ItLang: IItLang
+    public class ItLang : IItLang
     {
         public int IdIT { get; set; }
         public string ITLabel { get; set; }
+
+        public IEnumerable<Categories> Categories {get; set;}
+
     }
 }

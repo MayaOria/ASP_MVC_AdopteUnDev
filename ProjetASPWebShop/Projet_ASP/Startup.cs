@@ -34,6 +34,9 @@ namespace Projet_ASP
             services.AddScoped<IItLangRepository<DALEntities.ItLang, int>, DALServices.ItLangService>();
             services.AddScoped<IDevLangRepository<BLLEntities.DevLang, int>, BLLServices.DevLangService>();
             services.AddScoped<IDevLangRepository<DALEntities.DevLang, int>, DALServices.DevLangService>();
+            services.AddScoped<ICategoriesRepository<DALEntities.Categories, int>, DALServices.CategoriesService>();
+            services.AddScoped<ICategoriesRepository<BLLEntities.Categories, int>, BLLServices.CategoriesService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,0 +1,12 @@
+﻿@using Projet_BLL.Entities;
+
+@model IEnumerable<ItLang>
+
+<ul>
+    @foreach (ItLang itLang in Model)
+    {
+        <li>
+            <span>@itLang.ITLabel </span>
+        </li>
+    }
+</ul>

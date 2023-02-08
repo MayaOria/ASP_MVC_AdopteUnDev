@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Projet_BLL.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
@@ -16,6 +17,9 @@ namespace Projet_ASP.Models.ItLangViewModels
 
             [DisplayName("Label")]
             public string IdLabel { get; set; }
+
+            [DisplayName("Catégories")]
+            public IEnumerable<Categories> categories { get; set; }
 
         
     }
