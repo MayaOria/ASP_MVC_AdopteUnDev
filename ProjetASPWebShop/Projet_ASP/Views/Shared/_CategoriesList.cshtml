@@ -1,12 +1,28 @@
-﻿@using Projet_BLL.Entities;
+﻿@using Projet_ASP.Models.CategoriesViewModels
+@using Projet_BLL.Entities;
 
-@model IEnumerable<Categories>
+@model IEnumerable<CategoriesListItem>
 
-<ul>
-    @foreach (Categories categorie in Model)
+<h2>Category</h2>
+
+
+ @foreach (CategoriesListItem categorie in Model)
     {
-        <li>
-            <span>@categorie.CategLabel </span>
-        </li>
+	<div class="panel panel-default">
+							<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordian" href="#sportswear">
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+											@categorie.CategLabel
+										</a>
+									</h4>
+								</div>
+            
+							</div>
+        
     }
-</ul>
+
+					
+								
+								
+							

@@ -1,6 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Projet_ASP.Handlers;
 using Projet_ASP.Models;
+using Projet_ASP.Models.HomeViewModel;
+using Projet_BLL.Entities;
+using Projet_Common.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -11,17 +15,27 @@ namespace Projet_ASP.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly IDeveloperRepository<Developer, int> _servicesDev;
+        private readonly IItLangRepository<ItLang, int> _servicesitLang;
+        private readonly ICategoriesRepository<Categories, int> _servicescategories;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IDeveloperRepository<Developer, int> servicesDev, IItLangRepository<ItLang, int> servicesitLang, ICategoriesRepository<Categories, int> servicescategories)
         {
-            _logger = logger;
+            _servicesDev = servicesDev;
+            _servicesitLang = servicesitLang;
+            _servicescategories = servicescategories;
         }
 
         public IActionResult Index()
         {
-            return View();
+            IndexModel model = new IndexModel();
+            model.Developers = _servicesDev.Get().Select(e => e.ToListItem());
+            model.Categories = _servicescategories.Get().Select(e=>e.ToListItem());
+            model.ItLangs = _servicesitLang.Get().Select(e => e.ToListItem());
+            return View(model);
         }
+
+        
 
         public IActionResult Privacy()
         {

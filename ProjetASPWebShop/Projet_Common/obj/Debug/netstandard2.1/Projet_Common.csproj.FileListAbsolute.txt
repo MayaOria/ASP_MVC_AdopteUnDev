@@ -8,3 +8,13 @@ C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_Common\obj\Debug\netstan
 C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_Common\obj\Debug\netstandard2.1\Projet_Common.csproj.CoreCompileInputs.cache
 C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_Common\obj\Debug\netstandard2.1\Projet_Common.dll
 C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_Common\obj\Debug\netstandard2.1\Projet_Common.pdb
+C:\xampp\htdocs\REPOS\ASP_MVC_AdopteUnDev\ProjetASPWebShop\Projet_Common\bin\Debug\netstandard2.1\Projet_Common.deps.json
+C:\xampp\htdocs\REPOS\ASP_MVC_AdopteUnDev\ProjetASPWebShop\Projet_Common\bin\Debug\netstandard2.1\Projet_Common.dll
+C:\xampp\htdocs\REPOS\ASP_MVC_AdopteUnDev\ProjetASPWebShop\Projet_Common\bin\Debug\netstandard2.1\Projet_Common.pdb
+C:\xampp\htdocs\REPOS\ASP_MVC_AdopteUnDev\ProjetASPWebShop\Projet_Common\obj\Debug\netstandard2.1\Projet_Common.csproj.AssemblyReference.cache
+C:\xampp\htdocs\REPOS\ASP_MVC_AdopteUnDev\ProjetASPWebShop\Projet_Common\obj\Debug\netstandard2.1\Projet_Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\REPOS\ASP_MVC_AdopteUnDev\ProjetASPWebShop\Projet_Common\obj\Debug\netstandard2.1\Projet_Common.AssemblyInfoInputs.cache
+C:\xampp\htdocs\REPOS\ASP_MVC_AdopteUnDev\ProjetASPWebShop\Projet_Common\obj\Debug\netstandard2.1\Projet_Common.AssemblyInfo.cs
+C:\xampp\htdocs\REPOS\ASP_MVC_AdopteUnDev\ProjetASPWebShop\Projet_Common\obj\Debug\netstandard2.1\Projet_Common.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\REPOS\ASP_MVC_AdopteUnDev\ProjetASPWebShop\Projet_Common\obj\Debug\netstandard2.1\Projet_Common.dll
+C:\xampp\htdocs\REPOS\ASP_MVC_AdopteUnDev\ProjetASPWebShop\Projet_Common\obj\Debug\netstandard2.1\Projet_Common.pdb

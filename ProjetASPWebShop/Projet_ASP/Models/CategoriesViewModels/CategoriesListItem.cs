@@ -12,7 +12,6 @@ namespace Projet_ASP.Models.CategoriesViewModels
         [ScaffoldColumn(false)]
         public int IdCategory { get; set; }
         
-        [DisplayName("Label")]
         public string CategLabel { get; set; }
     }
 }

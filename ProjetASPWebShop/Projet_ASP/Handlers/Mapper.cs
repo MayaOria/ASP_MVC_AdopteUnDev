@@ -1,5 +1,6 @@
 ﻿using Projet_ASP.Models.CategoriesViewModels;
 using Projet_ASP.Models.DeveloperViewModel;
+using Projet_ASP.Models.HomeViewModel;
 using Projet_ASP.Models.ItLangViewModels;
 using Projet_BLL.Entities;
 using System;
@@ -68,7 +69,7 @@ namespace Projet_ASP.Handlers
             return new ItLangListItem()
             {
                 IdIT = entity.IdIT,
-                IdLabel = entity.ITLabel
+                ItLabel = entity.ITLabel
             };
         }
 
@@ -105,5 +106,7 @@ namespace Projet_ASP.Handlers
                 itLangs = entity.ItLangues
             };
         }
+
+        
     }
 }

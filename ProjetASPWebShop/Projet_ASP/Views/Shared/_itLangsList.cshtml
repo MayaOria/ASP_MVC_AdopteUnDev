@@ -1,12 +1,20 @@
-﻿@using Projet_BLL.Entities;
+﻿@using Projet_ASP.Models.ItLangViewModels
+@using Projet_BLL.Entities;
 
-@model IEnumerable<ItLang>
+@model IEnumerable<ItLangListItem>
 
-<ul>
-    @foreach (ItLang itLang in Model)
-    {
-        <li>
-            <span>@itLang.ITLabel </span>
-        </li>
-    }
-</ul>
+    <h2>IT LANG</h2>
+							<div class="brands-name">
+								<ul class="nav nav-pills nav-stacked">
+
+									@foreach (ItLangListItem itLang in Model)
+									{
+									    <li><a href="#">
+									        @itLang.ItLabel</a>
+									    </li>
+									}
+									
+								</ul>
+							</div>
+    
+

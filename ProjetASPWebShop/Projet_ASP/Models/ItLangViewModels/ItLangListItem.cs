@@ -13,8 +13,7 @@ namespace Projet_ASP.Models.ItLangViewModels
         
         public int IdIT { get; set; }
 
-        [DisplayName("Label")]
-        public string IdLabel { get; set; }
+        public string ItLabel { get; set; }
 
     }
 }

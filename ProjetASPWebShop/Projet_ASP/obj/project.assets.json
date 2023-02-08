@@ -6704,23 +6704,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\m.orianne\\.nuget\\packages\\": {},
+    "C:\\Users\\mayao\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_ASP\\Projet_ASP.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Projet_ASP\\Projet_ASP.csproj",
       "projectName": "Projet_ASP",
-      "projectPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_ASP\\Projet_ASP.csproj",
-      "packagesPath": "C:\\Users\\m.orianne\\.nuget\\packages\\",
-      "outputPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_ASP\\obj\\",
+      "projectPath": "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Projet_ASP\\Projet_ASP.csproj",
+      "packagesPath": "C:\\Users\\mayao\\.nuget\\packages\\",
+      "outputPath": "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Projet_ASP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\m.orianne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mayao\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6735,14 +6735,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_BLL\\Projet_BLL.csproj": {
-              "projectPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_BLL\\Projet_BLL.csproj"
+            "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Projet_BLL\\Projet_BLL.csproj": {
+              "projectPath": "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Projet_BLL\\Projet_BLL.csproj"
             },
-            "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj": {
-              "projectPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj"
+            "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj": {
+              "projectPath": "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj"
             },
-            "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_DAL\\Projet_DAL.csproj": {
-              "projectPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_DAL\\Projet_DAL.csproj"
+            "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Projet_DAL\\Projet_DAL.csproj": {
+              "projectPath": "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Projet_DAL\\Projet_DAL.csproj"
             }
           }
         }
@@ -6780,7 +6780,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
