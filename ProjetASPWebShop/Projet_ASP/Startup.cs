@@ -1,8 +1,10 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Projet_ASP.Handlers;
 using Projet_Common.Repositories;
 using System;
 using System.Collections.Generic;
@@ -28,6 +30,31 @@ namespace Projet_ASP
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddHttpContextAccessor();
+
+            services.AddScoped<SessionManager>();
+
+            #region Cookies de consentement & de session
+
+            services.AddDistributedMemoryCache();
+            services.AddSession(options =>
+            {
+                options.Cookie.Name = "AdopteUnDev.Session";
+                options.Cookie.HttpOnly = true;
+                options.IdleTimeout = TimeSpan.FromMinutes(20);
+                options.Cookie.IsEssential = true;
+            });
+            services.Configure<CookiePolicyOptions>(options =>
+            {
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = SameSiteMode.None;
+                options.Secure = CookieSecurePolicy.Always;
+
+            });
+            #endregion
+
+            #region Injection de dépendance
             services.AddScoped<IDeveloperRepository<BLLEntities.Developer, int>, BLLServices.DeveloperService>();
             services.AddScoped<IDeveloperRepository<DALEntities.Developer, int>, DALServices.DeveloperService>();
             services.AddScoped<IItLangRepository<BLLEntities.ItLang, int>, BLLServices.ItLangService>();
@@ -36,6 +63,10 @@ namespace Projet_ASP
             services.AddScoped<IDevLangRepository<DALEntities.DevLang, int>, DALServices.DevLangService>();
             services.AddScoped<ICategoriesRepository<DALEntities.Categories, int>, DALServices.CategoriesService>();
             services.AddScoped<ICategoriesRepository<BLLEntities.Categories, int>, BLLServices.CategoriesService>();
+            services.AddScoped<IClientRepository<BLLEntities.Client, int>, BLLServices.ClientService>();
+            services.AddScoped<IClientRepository<DALEntities.Client, int>, DALServices.ClientService>();
+            #endregion
+           
 
         }
 
@@ -50,6 +81,9 @@ namespace Projet_ASP
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+            app.UseSession();
+            app.UseCookiePolicy();
+
             app.UseStaticFiles();
 
             app.UseRouting();
@@ -58,6 +92,11 @@ namespace Projet_ASP
 
             app.UseEndpoints(endpoints =>
             {
+                //endpoints.MapControllerRoute(
+                //    name: "login",
+                //    pattern: "",
+                //    defaults: new { controller = "Home", action = "Login" });
+
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");

@@ -82,6 +82,36 @@ namespace Projet_BLL.Mapper
             };
         }
 
+        public static BLLEntities.Client ToBLL(this DALEntities.Client entity)
+        {
+            if (entity is null) return null;
+            return new BLLEntities.Client()
+            {
+                idClient = entity.idClient,
+                CliName = entity.CliName,
+                CliFirstName = entity.CliFirstName,
+                CliCompany = entity.CliCompany,
+                CliMail = entity.CliMail,
+                CliLogin = entity.CliLogin,
+                CliPassword = entity.CliPassword
+            };
+        }
+
+        public static DALEntities.Client ToDAL(this BLLEntities.Client entity)
+        {
+            if (entity is null) return null;
+            return new DALEntities.Client()
+            {
+                idClient = entity.idClient,
+                CliName = entity.CliName,
+                CliFirstName = entity.CliFirstName,
+                CliCompany = entity.CliCompany,
+                CliMail = entity.CliMail,
+                CliLogin = entity.CliLogin,
+                CliPassword = entity.CliPassword
+            };
+        }
+
 
 
     }

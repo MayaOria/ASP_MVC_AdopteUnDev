@@ -1,18 +1,20 @@
-﻿<!DOCTYPE html>
+﻿@inject SessionManager sessionManager; 
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Projet_ASP</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
     @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="~/css/site.css" />*@
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/price-range.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="~/css/animate.css" rel="stylesheet">
+    <link href="~/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/css/prettyPhoto.css" rel="stylesheet">
+    <link href="~/css/price-range.css" rel="stylesheet">
+    <link href="~/css/main.css" rel="stylesheet">
+    <link href="~/css/responsive.css" rel="stylesheet">
     
     
 </head>
@@ -85,7 +87,18 @@
                                 <li><a href="#"><i class="fa fa-star"></i> Wishlist</a></li>
                                 <li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>
                                 <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>
-                                <li><a href="login.html"><i class="fa fa-lock"></i> Login</a></li>
+                                
+                                
+                                @if (sessionManager.currentUser is null)
+                                {
+                                    <li><a asp-controller="Home" asp-action="Login"><i class="fa fa-lock"></i>Login</a></li>
+                                }
+
+                                else
+                                {
+                                    <li><a asp-controller="Home" asp-action="Logout"><i class="fa fa-lock"></i>Logout</a></li>
+                                }
+                            
                             </ul>
                         </div>
                     </div>
@@ -141,6 +154,7 @@
         </div><!--/header-bottom-->
     </header><!--/header-->
     <div class="container">
+        <partial name="_CookieConsentPartial" />
         <main role="main" class="pb-3">
             @RenderBody()
         </main>

@@ -275,3 +275,10 @@ C:\xampp\htdocs\REPOS\ASP_MVC_AdopteUnDev\ProjetASPWebShop\Projet_ASP\obj\Debug\
 C:\xampp\htdocs\REPOS\ASP_MVC_AdopteUnDev\ProjetASPWebShop\Projet_ASP\obj\Debug\net5.0\Projet_ASP.genruntimeconfig.cache
 C:\xampp\htdocs\REPOS\ASP_MVC_AdopteUnDev\ProjetASPWebShop\Projet_ASP\obj\Debug\net5.0\ref\Projet_ASP.dll
 C:\xampp\htdocs\REPOS\ASP_MVC_AdopteUnDev\ProjetASPWebShop\Projet_ASP\obj\Debug\net5.0\Razor\Views\Shared\_DeveloperList.cshtml.g.cs
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_ASP\obj\Debug\net5.0\Razor\Views\Shared\_DeveloperList.cshtml.g.cs
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_ASP\obj\Debug\net5.0\Razor\Views\Client\Create.cshtml.g.cs
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_ASP\obj\Debug\net5.0\Razor\Views\Client\Details.cshtml.g.cs
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_ASP\obj\Debug\net5.0\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_ASP\obj\Debug\net5.0\Razor\Views\Home\Login.cshtml.g.cs
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_ASP\obj\Debug\net5.0\Razor\Views\Shared\_CreateForm.cshtml.g.cs
+C:\xampp\htdocs\repo\ASP_Projet\ProjetASPWebShop\Projet_ASP\obj\Debug\net5.0\Razor\Views\Shared\_LoginForm.cshtml.g.cs

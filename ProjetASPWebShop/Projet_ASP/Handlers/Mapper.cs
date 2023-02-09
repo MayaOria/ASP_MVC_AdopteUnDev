@@ -1,4 +1,5 @@
 ﻿using Projet_ASP.Models.CategoriesViewModels;
+using Projet_ASP.Models.ClientViewModel;
 using Projet_ASP.Models.DeveloperViewModel;
 using Projet_ASP.Models.HomeViewModel;
 using Projet_ASP.Models.ItLangViewModels;
@@ -107,6 +108,30 @@ namespace Projet_ASP.Handlers
             };
         }
 
-        
+        public static Client ToBLL(this ClientCreateForm entity)
+        {
+            if (entity is null) return null;
+            return new Client()
+            {
+                CliName = entity.CliName,
+                CliFirstName = entity.CliFirstName,
+                CliMail = entity.CliMail,
+                CliCompany = entity.CliCompany,
+                CliLogin = entity.CliLogin,
+                CliPassword = entity.CliPassword
+            };
+        }
+
+        public static ClientDetails ToDetails(this Client entity)
+        {
+            if (entity is null) return null;
+            return new ClientDetails()
+            {
+                CliName = entity.CliName,
+                CliFirstName = entity.CliFirstName,
+                CliCompany = entity.CliCompany,
+                CliMail = entity.CliMail
+            };
+        }
     }
 }
