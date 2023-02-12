@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Test_DAL\\Test_DAL.csproj": {}
+    "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Test_DAL\\Test_DAL.csproj": {}
   },
   "projects": {
-    "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj": {
+    "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj",
         "projectName": "Projet_Common",
-        "projectPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj",
-        "packagesPath": "C:\\Users\\m.orianne\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_Common\\obj\\",
+        "projectPath": "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj",
+        "packagesPath": "C:\\Users\\mayao\\.nuget\\packages\\",
+        "outputPath": "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Projet_Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\m.orianne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mayao\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -58,24 +58,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_DAL\\Projet_DAL.csproj": {
+    "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Projet_DAL\\Projet_DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_DAL\\Projet_DAL.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Projet_DAL\\Projet_DAL.csproj",
         "projectName": "Projet_DAL",
-        "projectPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_DAL\\Projet_DAL.csproj",
-        "packagesPath": "C:\\Users\\m.orianne\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_DAL\\obj\\",
+        "projectPath": "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Projet_DAL\\Projet_DAL.csproj",
+        "packagesPath": "C:\\Users\\mayao\\.nuget\\packages\\",
+        "outputPath": "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Projet_DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\m.orianne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mayao\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -90,8 +90,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj": {
-                "projectPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj"
+              "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Projet_Common\\Projet_Common.csproj"
               }
             }
           }
@@ -126,24 +126,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Test_DAL\\Test_DAL.csproj": {
+    "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Test_DAL\\Test_DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Test_DAL\\Test_DAL.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Test_DAL\\Test_DAL.csproj",
         "projectName": "Test_DAL",
-        "projectPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Test_DAL\\Test_DAL.csproj",
-        "packagesPath": "C:\\Users\\m.orianne\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Test_DAL\\obj\\",
+        "projectPath": "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Test_DAL\\Test_DAL.csproj",
+        "packagesPath": "C:\\Users\\mayao\\.nuget\\packages\\",
+        "outputPath": "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Test_DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\m.orianne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mayao\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -158,8 +158,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_DAL\\Projet_DAL.csproj": {
-                "projectPath": "C:\\xampp\\htdocs\\repo\\ASP_Projet\\ProjetASPWebShop\\Projet_DAL\\Projet_DAL.csproj"
+              "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Projet_DAL\\Projet_DAL.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\REPOS\\ASP_MVC_AdopteUnDev\\ProjetASPWebShop\\Projet_DAL\\Projet_DAL.csproj"
               }
             }
           }
@@ -188,7 +188,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

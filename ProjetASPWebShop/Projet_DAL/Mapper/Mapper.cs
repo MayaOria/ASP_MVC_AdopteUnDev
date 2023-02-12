@@ -73,5 +73,18 @@ namespace Projet_DAL.Mapper
                 CliPassword = "********"
             };
         }
+
+        public static ClientEndorseDev ToClientEndorseDev(this IDataRecord record)
+        {
+            if (record is null) return null;
+            return new ClientEndorseDev()
+            {
+                idClient = (int)record[nameof(ClientEndorseDev.idClient)],
+                idDev = (int)record[nameof(ClientEndorseDev.idDev)],
+                BeginDate = (DateTime)record[nameof(ClientEndorseDev.BeginDate)],
+                EndDate = (DateTime)record[nameof(ClientEndorseDev.EndDate)],
+                EndorseNumber = (int)record[nameof(ClientEndorseDev.EndorseNumber)],
+            }; 
+        }
     }
 }
